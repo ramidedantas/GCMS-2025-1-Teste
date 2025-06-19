@@ -12,8 +12,13 @@ public class HomeController {
     return "Hello, World!"; 
   } 
   
-  @RequestMapping("/ramide") 
-  public @ResponseBody String greetingRamide() { 
+  @RequestMapping("/ramide")
+  public @ResponseBody String greetingRamide() {
     return "Hello, Ramide!"; 
+  }
+
+  @RequestMapping("/intellij")
+  public @ResponseBody String greetingIntellij() {
+    return "Hello, IntelliJ!";
   }
 }  
