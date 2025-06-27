@@ -26,4 +26,9 @@ public class HomeController {
   public @ResponseBody String greetingEclipse() { 
     return "Hello, Eclipse!"; 
   }
+  
+  @RequestMapping("/main") 
+  public @ResponseBody String greetingMain() { 
+    return "Hello, Main!"; 
+  }
 }  
