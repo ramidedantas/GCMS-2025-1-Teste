@@ -26,4 +26,10 @@ public class HomeController {
   public @ResponseBody String greetingEclipse() { 
     return "Hello, Eclipse!"; 
   }
+  
+  @RequestMapping("/hotfix") 
+  public @ResponseBody String greetingHotfix() { 
+    return "Hello, Eclipse!"; 
+  }
+
 }  
